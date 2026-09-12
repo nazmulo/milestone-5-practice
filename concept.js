@@ -40,3 +40,24 @@
 //    console.log(div);
 //}
 //getCardHTML('IPHONE12','LATEST MODEL',999);
+
+
+//arrow function:
+
+//const add = (num1, num2) => num1 + num2;
+
+//console.log(add(50, 60));
+
+//const multipli = (a,b) => a*b;
+
+//console.log(multipli(2,5));
+
+const doMath = (x, y) => {
+    const sum = x + y;
+    const diff = x - y;
+    const result = sum * diff;
+
+    return result;
+}
+
+console.log(doMath(50, 60));
