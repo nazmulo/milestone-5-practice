@@ -112,3 +112,12 @@
 //const [first, second] = [10, 20];
 
 //const [height, weight] = [60, 70];
+
+const king = {name:'musafa', age: 55, kingdom:'Prideland'};
+const keys = Object.keys(king);
+const values = Object.values(king);
+const entries = Object.entries(king);
+
+console.log(keys);
+console.log(values);
+console.log(entries);
