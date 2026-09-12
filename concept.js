@@ -14,3 +14,19 @@
 //}
 //
 //fullName('kamal')
+
+//dynamic string:
+
+//const firstName = 'Osman';
+//const aboutMe = `my name is ${firstName}`;
+
+
+//const giveMe = `give me money ${(10+2)*2+500}`;
+
+
+const firstName = 'osman';
+const lastName = 'hadi';
+
+const fullName = `${firstName} ${lastName}`;
+
+console.log (fullName);
