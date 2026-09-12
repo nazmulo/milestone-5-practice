@@ -130,3 +130,17 @@
 //console.log(employee[1]);
 //console.log(employee['home-address']);
 
+//looping object:
+
+//const employee = {
+//    name: 'john doe',
+//    1: 'deskone',
+//    'home-address': '123 main st',
+//    salary: 5000,
+//    position: 'software engineer'
+//};
+//
+//for (const key in employee) {
+//    const value = employee[key];
+//    console.log(key, value);
+//};
