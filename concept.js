@@ -52,12 +52,44 @@
 
 //console.log(multipli(2,5));
 
-const doMath = (x, y) => {
-    const sum = x + y;
-    const diff = x - y;
-    const result = sum * diff;
+//const doMath = (x, y) => {
+//    const sum = x + y;
+//    const diff = x - y;
+//    const result = sum * diff;
+//
+//    return result;
+//}
+//
+//console.log(doMath(50, 60));
 
-    return result;
-}
+//spread operator:
 
-console.log(doMath(50, 60));
+//const numbers = [3, 5, 1, 8, 2, 58, 9];
+
+//const max = Math.max(...numbers);
+
+//console.log(...numbers);
+
+//console.log(max);
+
+//const parrams = [45,12,3];
+//
+//function sum (x,y,z) {
+//    return(x+y+z);
+//}
+//const result = sum(...parrams);
+//console.log(result);
+
+//const arr1 =[1,2,3];
+//const array2 =[...arr1];
+//array2.push(4);
+//console.log(arr1);
+//console.log(array2);
+
+//const person = { name:'Alice', age:30 };
+//const person2 = {...person , designation : 'devoloper'};
+//person.salary = 36000;
+//console.log(person);
+//console.log(person2);
+
+
