@@ -92,4 +92,23 @@
 //console.log(person);
 //console.log(person2);
 
+//obj and array distructaring :
 
+//const {
+//    name,
+//    price: phonePrice,
+//    camera: '12mp'
+//} = {
+//    name: 'iphone',
+//    price: 799,
+//    brand: 'apple',
+//    camera: '48mp'
+//};
+//
+//console.log(name);
+//console.log(phonePrice);
+//console.log(camera);
+
+//const [first, second] = [10, 20];
+
+//const [height, weight] = [60, 70];
