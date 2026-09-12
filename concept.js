@@ -24,9 +24,19 @@
 //const giveMe = `give me money ${(10+2)*2+500}`;
 
 
-const firstName = 'osman';
-const lastName = 'hadi';
+//const firstName = 'osman';
+//const lastName = 'hadi';
 
-const fullName = `${firstName} ${lastName}`;
+//const fullName = `${firstName} ${lastName}`;
 
-console.log (fullName);
+//function getCardHTML (name,description,price) {
+//    const div = `
+//    <div class='card'>
+//    <h2>${name}</h2>
+//    <p>price:${price}</p>
+//    <p>${description}</p>
+//    </div>
+//    `
+//    console.log(div);
+//}
+//getCardHTML('IPHONE12','LATEST MODEL',999);
