@@ -60,3 +60,21 @@
 //else {
 //    console.log ('falsy');
 //};
+
+// scope: -
+
+//1:
+
+//let pi = 3.14;
+//
+//function add (a,b) {
+//    const factor = 0.5;
+//    const result = (a+b)*factor+pi;
+//    return result;
+//};
+//
+//console.log(factor,pi);
+//
+//> factor শুধু add() function-এর ভিতরেই ব্যবহার করা যাবে।
+//
+//> তবে pi বাইরে থেকে পাওয়া যাবে, কারণ সেটা function-এর বাইরে declare করা হয়েছে।
