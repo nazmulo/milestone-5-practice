@@ -39,3 +39,24 @@
 //console.log(arr);
 //console.log(arr[1]);
 
+//truthy and falsy value:
+
+//let data;
+//data = 0;
+//data = '';
+//data = '0';
+//data = ' ';
+//data = false;
+//data = true;
+//data = null;
+//data = undefined;
+//data = {};
+//data = [];
+
+//if (data) {
+//    console.log('truthy');
+//}
+//
+//else {
+//    console.log ('falsy');
+//};
