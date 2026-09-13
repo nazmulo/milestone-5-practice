@@ -78,3 +78,33 @@
 //> factor শুধু add() function-এর ভিতরেই ব্যবহার করা যাবে।
 //
 //> তবে pi বাইরে থেকে পাওয়া যাবে, কারণ সেটা function-এর বাইরে declare করা হয়েছে।
+
+//2
+
+//function doubleIt (num) {
+//    
+//    return num*2;
+//};
+
+//function add (a,b) {
+//    const factor = 0.5;
+//    const result = (a+b)*factor+pi;
+//    const total = doubleIt+result;
+//    return total;
+//};
+
+//akta function thake arekta function use kora jai.
+
+//function add (a,b) {
+//    const factor = 0.5;
+//    const result = (a+b)*factor+pi;
+//    const total = doubleIt+result;
+//    const value = addTwo(total);
+//    function addTwo(num){
+//        return num+2;
+//    }
+//    return value;
+//    
+//};
+//
+//add(3,6);
