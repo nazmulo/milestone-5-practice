@@ -1,0 +1,28 @@
+//joson :
+//{
+//    "name" : "Zihad",
+//    "age" : 28,
+//    "isStudent" : false
+//}
+
+//1.
+
+//const person = {
+//    name: "selim",
+//    fruit: "dalim",
+//    dish: "halim",
+//    friends: ["alim", "kolim", "lamim"],
+//    isRich: false,
+//    money: 34000,
+//};
+
+//console.log(person);
+
+//console.log(person.name);       // selim
+//console.log(person.fruit);      // dalim
+//console.log(person.money);      // 34000
+//console.log(person.isRich);     // false
+
+//console.log(person.friends[0]); // alim
+//console.log(person.friends[1]); // kolim
+//console.log(person.friends[2]); // lamim
