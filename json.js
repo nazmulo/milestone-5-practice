@@ -26,3 +26,13 @@
 //console.log(person.friends[0]); // alim
 //console.log(person.friends[1]); // kolim
 //console.log(person.friends[2]); // lamim
+
+//const personJson = JSON.stringify(person);
+//
+//console.log(personJson);
+
+// json add :
+
+//fetch("https://jsonplaceholder.typicode.com/todos/1")
+//    .then((res) => res.json())
+//    .then((data) => console.log(data));
