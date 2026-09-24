@@ -44,5 +44,8 @@ const loadPost = () => {
 };
 
 const displayPost = (post) => {
+   post.forEach((post)=>{
     console.log(post)
+   });
 };
+
