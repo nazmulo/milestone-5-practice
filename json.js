@@ -37,15 +37,27 @@
 //    .then((res) => res.json())
 //    .then((data) => console.log(data));
 
+
+//load data to UI :
+
+//1 jodi 1 ta post dhakate chai;
+
 const loadPost = () => {
     fetch("https://jsonplaceholder.typicode.com/todos/1")
-    .then((res) => res.json())
-    .then((json) => displayPost(json))
+        .then((res) => res.json())
+        .then((data) => {
+            displayPost(data);
+        });
 };
 
 const displayPost = (post) => {
-   post.forEach((post)=>{
-    console.log(post)
-   });
+    const postContainer = document.getElementById("post-container");
+
+    const li = document.createElement("li");
+    li.innerText = post.title;
+
+    postContainer.appendChild(li);
 };
+
+loadPost();
 
