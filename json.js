@@ -42,22 +42,70 @@
 
 //1 jodi 1 ta post dhakate chai;
 
-const loadPost = () => {
-    fetch("https://jsonplaceholder.typicode.com/todos/1")
-        .then((res) => res.json())
-        .then((data) => {
-            displayPost(data);
-        });
-};
+//const loadPost = () => {
+//    fetch("https://jsonplaceholder.typicode.com/todos/1")
+//        .then((res) => res.json())
+//        .then((data) => {
+//            displayPost(data);
+//        });
+//};
+//
+//const displayPost = (post) => {
+//    const postContainer = document.getElementById("post-container");
+//
+//    const li = document.createElement("li");
+//    li.innerText = post.title;
+//
+//    postContainer.appendChild(li);
+//};
+//
+//loadPost();
 
-const displayPost = (post) => {
-    const postContainer = document.getElementById("post-container");
+//2 jodi onnek gulu todo dhekate chai:
 
-    const li = document.createElement("li");
-    li.innerText = post.title;
+//const loadPost = () => {
+//    fetch("https://jsonplaceholder.typicode.com/todos")
+//        .then((res) => res.json())
+//        .then((data) => {
+//            displayPost(data);
+//        });
+//};
+//
+//const displayPost = (posts) => {
+//    const postContainer = document.getElementById("post-container");
+//
+//    
+//
+//    posts.forEach((post) => {
+//        const li = document.createElement("li");
+//        li.innerText = post.title;
+//        postContainer.appendChild(li);
+//    });
+//};
+//
+//loadPost();
 
-    postContainer.appendChild(li);
-};
+//3 noton kore add hobe na;
 
-loadPost();
+//const loadPost = () => {
+//    fetch("https://jsonplaceholder.typicode.com/todos")
+//        .then((res) => res.json())
+//        .then((data) => {
+//            displayPost(data);
+//        });
+//};
+//
+//const displayPost = (posts) => {
+//    const postContainer = document.getElementById("post-container");
+//
+//    postContainer.innerHTML = "";
+//
+//    posts.forEach((post) => {
+//        const li = document.createElement("li");
+//        li.innerText = post.title;
+//        postContainer.appendChild(li);
+//    });
+//};
+//
+//loadPost();
 
