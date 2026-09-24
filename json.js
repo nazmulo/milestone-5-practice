@@ -109,3 +109,29 @@
 //
 //loadPost();
 
+//load html :
+
+//const loadPost = () => {
+//    fetch("https://jsonplaceholder.typicode.com/todos")
+//        .then((res) => res.json())
+//        .then((data) => {
+//            displayPost(data);
+//        });
+//};
+//
+//const displayPost = (posts) => {
+//    const postContainer = document.getElementById("post-container");
+//
+//    postContainer.innerHTML = "";
+//
+//    posts.forEach((post) => {
+//        const postCard = document.createElement("div");
+//        postCard.innerText = `<div class="post-card">
+//        <h2>${post.title}</h2>
+//        <p>${post.body}</p>
+//    </div>`;
+//        postContainer.appendChild(post-card);
+//    });
+//};
+//
+//loadPost();
